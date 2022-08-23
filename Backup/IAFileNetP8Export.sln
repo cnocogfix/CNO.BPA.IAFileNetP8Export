@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAFileNetP8Export", "IAFileNetP8Export\IAFileNetP8Export.csproj", "{4C3426D2-8172-4DE7-BF3D-B2FC1B426029}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupIAFileNetExport", "SetupIAFileNetP8Export\SetupIAFileNetP8Export.vdproj", "{95C93AA6-E4EE-4E3E-BD6E-3B056608EE56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3426D2-8172-4DE7-BF3D-B2FC1B426029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3426D2-8172-4DE7-BF3D-B2FC1B426029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3426D2-8172-4DE7-BF3D-B2FC1B426029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3426D2-8172-4DE7-BF3D-B2FC1B426029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C93AA6-E4EE-4E3E-BD6E-3B056608EE56}.Debug|Any CPU.ActiveCfg = Debug
+		{95C93AA6-E4EE-4E3E-BD6E-3B056608EE56}.Debug|Any CPU.Build.0 = Debug
+		{95C93AA6-E4EE-4E3E-BD6E-3B056608EE56}.Release|Any CPU.ActiveCfg = Release
+		{95C93AA6-E4EE-4E3E-BD6E-3B056608EE56}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

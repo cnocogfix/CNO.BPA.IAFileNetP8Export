@@ -1,0 +1,213 @@
+'
+'   FNP8EXP.MDF - "InputAccel"
+'               
+'
+Module FNP8EXP(T)
+
+
+
+	QMResult   	As String, Output
+	QMErrorNo	As String, Output
+	QMErrorDesc	As String, Output
+	QMOperatorId    As String, Output
+	QMMachineName	As String, Output
+	BatchErrorId    As String, Output
+
+
+	'Standard QuickModule Output Values.  Do not modify.
+	TaskResult 	As Long, Output
+	ErrorNumber 	As Long, Output
+	ErrorText 		As String, Output
+	ErrorName 	As String, Output
+
+	StartDate 		As String, Output 	'uses client system's short date format
+	StartTime		As String, Output 	'uses client system's long time format
+	EndDate 		As String, Output 	'uses client system's short date format
+	EndTime 		As String, Output 	'uses client system's long time format
+	Totaltime		As Long, Output 	'processing time in milliseconds
+
+	Operator 		As String, Output
+
+End Module
+
+Module FNP8EXP(7)
+	'TODO:QM: Fill in your level 7 values here.  Be sure to add 
+	'         "Level7_" to the front of the value name, unless
+	'         you specified NoPrefix when adding the value class
+	'         for this level to the ValueList.
+
+	'Standard QuickModule values.  Do not modify.
+
+	Level7_Processed As Long,Input,Output,NoTrigger
+
+	Level7_ErrorNumber As Long,Output
+	Level7_ErrorText As String,Output
+	Level7_ErrorName As String,Output
+
+	Level7_StartDate as string,Output 'uses client system's short date format
+	Level7_StartTime as String,Output 'uses client system's long time format
+
+	Level7_EndDate as String,Output 'uses client system's short date format
+	Level7_EndTime as String,Output 'uses client system's long time format
+	Level7_Totaltime as Long,Output 'processing time in milliseconds
+End Module
+
+Module FNP8EXP(6)
+	'TODO:QM: Fill in your level 6 values here.  Be sure to add 
+	'         "Level6_" to the front of the value name, unless
+	'         you specified NoPrefix when adding the value class
+	'         for this level to the ValueList.
+
+	'Standard QuickModule values.  Do not modify.
+
+	Level6_Processed As Long,Input,Output,NoTrigger
+
+	Level6_ErrorNumber As Long,Output
+	Level6_ErrorText As String,Output
+	Level6_ErrorName As String,Output
+
+	Level6_StartDate as string,Output 'uses client system's short date format
+	Level6_StartTime as String,Output 'uses client system's long time format
+
+	Level6_EndDate as String,Output 'uses client system's short date format
+	Level6_EndTime as String,Output 'uses client system's long time format
+	Level6_Totaltime as Long,Output 'processing time in milliseconds
+End Module
+
+Module FNP8EXP(5)
+	'TODO:QM: Fill in your level 5 values here.  Be sure to add 
+	'         "Level5_" to the front of the value name, unless
+	'         you specified NoPrefix when adding the value class
+	'         for this level to the ValueList.
+
+	'Standard QuickModule values.  Do not modify.
+
+	Level5_Processed As Long,Input,Output,NoTrigger
+
+	Level5_ErrorNumber As Long,Output
+	Level5_ErrorText As String,Output
+	Level5_ErrorName As String,Output
+
+	Level5_StartDate as string,Output 'uses client system's short date format
+	Level5_StartTime as String,Output 'uses client system's long time format
+
+	Level5_EndDate as String,Output 'uses client system's short date format
+	Level5_EndTime as String,Output 'uses client system's long time format
+	Level5_Totaltime as Long,Output 'processing time in milliseconds
+End Module
+
+Module FNP8EXP(4)
+	'TODO:QM: Fill in your level 4 values here.  Be sure to add 
+	'         "Level4_" to the front of the value name, unless
+	'         you specified NoPrefix when adding the value class
+	'         for this level to the ValueList.
+
+	'Standard QuickModule values.  Do not modify.
+
+	Level4_Processed As Long,Input,Output,NoTrigger
+
+	Level4_ErrorNumber As Long,Output
+	Level4_ErrorText As String,Output
+	Level4_ErrorName As String,Output
+
+	Level4_StartDate as string,Output 'uses client system's short date format
+	Level4_StartTime as String,Output 'uses client system's long time format
+
+	Level4_EndDate as String,Output 'uses client system's short date format
+	Level4_EndTime as String,Output 'uses client system's long time format
+	Level4_Totaltime as Long,Output 'processing time in milliseconds
+End Module
+
+Module FNP8EXP(3)
+	'TODO:QM: Fill in your level 3 values here.  Be sure to add 
+	'         "Level3_" to the front of the value name, unless
+	'         you specified NoPrefix when adding the value class
+	'         for this level to the ValueList.
+
+	'Standard QuickModule values.  Do not modify.
+
+	Level3_Processed As Long,Input,Output,NoTrigger
+
+	Level3_ErrorNumber As Long,Output
+	Level3_ErrorText As String,Output
+	Level3_ErrorName As String,Output
+
+	Level3_StartDate as string,Output 'uses client system's short date format
+	Level3_StartTime as String,Output 'uses client system's long time format
+
+	Level3_EndDate as String,Output 'uses client system's short date format
+	Level3_EndTime as String,Output 'uses client system's long time format
+	Level3_Totaltime as Long,Output 'processing time in milliseconds
+End Module
+
+Module FNP8EXP(2)
+	'TODO:QM: Fill in your level 2 values here.  Be sure to add 
+	'         "Level2_" to the front of the value name, unless
+	'         you specified NoPrefix when adding the value class
+	'         for this level to the ValueList.
+
+	'Standard QuickModule values.  Do not modify.
+
+	Level2_Processed As Long,Input,Output,NoTrigger
+
+	Level2_ErrorNumber As Long,Output
+	Level2_ErrorText As String,Output
+	Level2_ErrorName As String,Output
+
+	Level2_StartDate as string,Output 'uses client system's short date format
+	Level2_StartTime as String,Output 'uses client system's long time format
+
+	Level2_EndDate as String,Output 'uses client system's short date format
+	Level2_EndTime as String,Output 'uses client system's long time format
+	Level2_Totaltime as Long,Output 'processing time in milliseconds
+End Module
+
+Module FNP8EXP(1)
+	'TODO:QM: Fill in your level 1 values here.  Be sure to add 
+	'         "Level1_" to the front of the value name, unless
+	'         you specified NoPrefix when adding the value class
+	'         for this level to the ValueList.
+	Level1_InputFile		as File, Input
+	Level1_FileExtension	as String, Input
+
+	'Standard QuickModule values.  Do not modify.
+	Level1_Processed As Long,Input,Output,NoTrigger
+
+	Level1_ErrorNumber As Long,Output
+	Level1_ErrorText As String,Output
+	Level1_ErrorName As String,Output
+
+	Level1_StartDate as string,Output 'uses client system's short date format
+	Level1_StartTime as String,Output 'uses client system's long time format
+
+	Level1_EndDate as String,Output 'uses client system's short date format
+	Level1_EndTime as String,Output 'uses client system's long time format
+	Level1_Totaltime as Long,Output 'processing time in milliseconds
+End Module
+
+Module FNP8EXP(0)
+	'TODO:QM: Fill in your level 0 values here.  Be sure to add 
+	'         "Level0_" to the front of the value name, unless
+	'         you specified NoPrefix when adding the value class
+	'         for this level to the ValueList.
+
+	CurrentImgBW 			As File, Output	
+
+	'Standard QuickModule values.  Do not modify.
+
+	Level0_Processed As Long,Input,Output,NoTrigger
+
+	Level0_ErrorNumber As Long,Output
+	Level0_ErrorText As String,Output
+	Level0_ErrorName As String,Output
+
+	Level0_StartDate as string,Output 'uses client system's short date format
+	Level0_StartTime as String,Output 'uses client system's long time format
+
+	Level0_EndDate as String,Output 'uses client system's short date format
+	Level0_EndTime as String,Output 'uses client system's long time format
+	Level0_Totaltime as Long,Output 'processing time in milliseconds
+
+	
+
+End Module

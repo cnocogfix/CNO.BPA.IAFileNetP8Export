@@ -1,0 +1,28 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>
+    </PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>D:\InputAccel\Client\binnt\QuickModuleHost.exe</StartProgram>
+    <StartArguments>-modulename:FNP8EXP -zsetup:1331500,FileNetP8Export</StartArguments>
+    <StartWorkingDirectory>D:\InputAccel\Client\binnt</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>D:\InputAccel\Client\binnt\QuickModuleHost.exe</StartProgram>
+    <StartArguments>-modulename:FNP8EXP -zsetup:1331500,FileNetP8Export</StartArguments>
+    <StartWorkingDirectory>D:\InputAccel\Client\binnt\</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>
